@@ -1,0 +1,21 @@
+[global_config]
+  title_hide_sizetext = True
+[keybindings]
+[profiles]
+  [[default]]
+    icon_bell = False
+    background_color = "#002b36"
+    cursor_color = "#aaaaaa"
+    foreground_color = "#839496"
+    show_titlebar = False
+    scrollbar_position = hidden
+    scrollback_infinite = True
+[layouts]
+  [[default]]
+    [[[window0]]]
+      type = Window
+      parent = ""
+    [[[child1]]]
+      type = Terminal
+      parent = window0
+[plugins]
