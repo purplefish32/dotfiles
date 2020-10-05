@@ -36,6 +36,8 @@ sudo apt-get install -y \
     pasystray \
     xautolock \
     docker.io \
+    cowsay \
+    lolcat \
     docker-compose \
     flameshot;
 
