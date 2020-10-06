@@ -38,6 +38,7 @@ sudo apt-get install -y \
     docker.io \
     cowsay \
     lolcat \
+    fonts-firacode  \
     docker-compose \
     flameshot;
 
