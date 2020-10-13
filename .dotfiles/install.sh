@@ -42,12 +42,17 @@ sudo apt-get install -y \
     docker-compose \
     flameshot;
 
+echo "---------------- Install Peek ----------------";
+sudo add-apt-repository ppa:peek-developers/stable
+sudo apt update
+sudo apt install peek
+
 echo "---------------- Setup Docker ----------------";
 groupadd docker
 sudo usermod -aG docker $USER
 
 echo "-------------- Installing VSCODE --------------";
-sudo snap install code;
+sudo snap install code --classic;
 
 echo "-------------- Installing Discord -------------";
 sudo snap install discord;
